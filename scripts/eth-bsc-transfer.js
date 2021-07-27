@@ -1,6 +1,6 @@
 const VaultEth = artifacts.require('./VaultEth.sol');
 
-const privKey = 'priv key of sender';
+const privKey = '';
 
 module.exports = async done => {
   const nonce = 1; //Need to increment this for each new transfer
